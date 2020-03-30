@@ -5,7 +5,7 @@ import { GlobalContext } from '../context/GlobalState';
 export const Addtrans = () => {
   // Hook
   const [text, setText] = useState('');
-  const [amount, setAmount] = useState(0);
+  const [amount, setAmount] = useState('');
 
   const { addTransaction } = useContext(GlobalContext);
 
@@ -26,7 +26,7 @@ export const Addtrans = () => {
             <h3>Add new transaction</h3>
             <form onSubmit={onSubmit}>
         <div class="form-control">
-          <label htmlFor="text">Text</label>
+          <label htmlFor="text">Company / Person / Item</label>
           <input 
           type="text" 
           value={text} 
@@ -34,7 +34,7 @@ export const Addtrans = () => {
           placeholder="Enter text..." />
         </div>
         <div class="form-control">
-          <label htmlFor="amount">Amount <br /> (negative - expense, positive - income)</label>
+          <label htmlFor="amount">Amount <br /> (negative = expense, positive = income)</label>
           <input 
           type="number" 
           value={amount} 
