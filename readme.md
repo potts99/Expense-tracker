@@ -17,6 +17,12 @@ From there it is split up into serveral sections
     - index.css - css file for index.js
     - index.js - loads all our compoments and lays them out
 
+### This app was made
+
+This app was made to put was i had learnt in ReactJs Hooks and state management. Allowing for dyanmic updates to the browser.
+
+This app may be used in the future for working with nodeJS and a database, for now it stays as a front end app.
+
 
 ### Things on the todo
 
