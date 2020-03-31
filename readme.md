@@ -23,10 +23,14 @@ This app was made to put was i had learnt in ReactJs Hooks and state management.
 
 This app may be used in the future for working with nodeJS and a database, for now it stays as a front end app.
 
+### Completed
+
+- Mongoose db connected and working
+- Turn into a full stack app / pretty much above
+- Hosted on Heroku
 
 ### Things on the todo
 
-- Storage (local or db)
-- Turn into a full stack app 
+- Implement a login system
 - Dark mode?
 - Catergories of different payment types
