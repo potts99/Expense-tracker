@@ -31,6 +31,8 @@ This app may be used in the future for working with nodeJS and a database, for n
 
 ### Things on the todo
 
+- Comment on code
+- Install HelmetJS
 - Implement a login system
 - Dark mode?
 - Catergories of different payment types

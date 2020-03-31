@@ -1,4 +1,8 @@
+// Imports the Schema model that your db follows
 const Transaction = require('../models/Transaction');
+
+
+// The below are the api promises and results it puts out when it is called by Routes/transactions file
 
 
 // Get all transactions
