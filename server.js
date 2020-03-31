@@ -2,6 +2,7 @@
 // Dependencies
 const path = require('path');
 const express = require('express'); 
+const helmet = require('helmet');
 const dotenv = require('dotenv');
 const colors = require('colors');
 const morgan = require('morgan');
@@ -19,6 +20,9 @@ const transactions = require('./routes/transactions');
 
 // initalise express
 const app = express();
+
+// Helmet.JS() initalise inside of the express server for security
+app.use(helmet());
 
 // middleware json parser for req.body
 app.use(express.json());
