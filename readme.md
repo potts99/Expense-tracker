@@ -21,18 +21,18 @@ From there it is split up into serveral sections
 
 This app was made to put was i had learnt in ReactJs Hooks and state management. Allowing for dyanmic updates to the browser.
 
-This app may be used in the future for working with nodeJS and a database, for now it stays as a front end app.
+This app may be used in the future for working with nodeJS and a database, for now it stays as a front end app. (now a full stack app)
 
 ### Completed
 
 - Mongoose db connected and working
 - Turn into a full stack app / pretty much above
 - Hosted on Heroku
+- Backend code commented
+- Install HelmetJS
 
 ### Things on the todo
 
-- Comment on code
-- Install HelmetJS
 - Implement a login system
 - Dark mode?
 - Catergories of different payment types

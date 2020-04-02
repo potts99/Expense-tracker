@@ -5,6 +5,8 @@ The database schema of a database is its structure described in a formal languag
 The term "schema" refers to the organization of data as a blueprint of how the database is constructed.
 */
 
+// https://mongoosejs.com/docs/guide.html
+
 const mongoose = require('mongoose');
 
 const TransactionSchema = new mongoose.Schema({
